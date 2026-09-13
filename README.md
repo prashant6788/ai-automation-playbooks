@@ -1,5 +1,13 @@
 <div align="center">
 
+<img src="assets/ai-automation-architecture.png"
+     alt="AI Automation Architecture - Lead Sources, CRM, AI, Human Handoff, Pipeline and Measurement"
+     width="900">
+
+</div>
+
+<br>
+
 # 🤖 AI Automation Playbooks
 
 ### Practical Frameworks for AI, CRM, Workflow Automation & Revenue Operations
