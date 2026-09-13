@@ -65,7 +65,7 @@ A practical checklist to help businesses determine where AI and automation can c
 | Resource | Status |
 |---|---|
 | [AI Automation Readiness Checklist](ai-automation-readiness-checklist.md) | ✅ Published |
-| AI Lead Qualification Framework | 📌 Planned |
+| [AI Lead Qualification Framework](ai-lead-qualification-framework.md) | ✅ Published |
 | CRM Lead Routing Playbook | 📌 Planned |
 | WhatsApp Follow-up Automation | 📌 Planned |
 | AI Appointment Booking Workflow | 📌 Planned |
