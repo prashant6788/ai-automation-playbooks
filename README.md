@@ -78,28 +78,40 @@ Resources will be added as they are completed and tested rather than publishing 
 
 ## My Approach
 
-AI automation should solve a real business problem.
+## Connected AI Automation Architecture
 
-I generally look at automation through five questions:
+A practical AI automation system should connect acquisition, customer data, AI decision support, communication and human sales workflows.
 
-### 1. Where is time being lost?
-Which repetitive activities are consuming team capacity?
+```mermaid
+flowchart LR
+    A[Lead Sources] --> B[CRM]
+    B --> C[AI Qualification]
+    C --> D[Lead Scoring]
+    D --> E{Routing}
 
-### 2. Where are leads being lost?
-Are enquiries delayed, ignored, misrouted or forgotten?
+    E -->|Hot Lead| F[Sales Team]
+    E -->|Warm Lead| G[Automated Follow-up]
+    E -->|Nurture| H[Nurture Workflow]
 
-### 3. Where is information disconnected?
-Do marketing, CRM, sales and communication systems operate separately?
+    G --> F
+    H --> B
 
-### 4. Where can AI improve decisions?
-Can AI help qualify, summarize, prioritize or respond without replacing important human judgment?
+    F --> I[Appointment / Opportunity]
+    I --> J[Sales Pipeline]
+    J --> K[Won / Lost]
 
-### 5. Can the outcome be measured?
-Does the automation improve response time, conversion, efficiency, visibility or revenue?
+    K --> L[Reporting & Analytics]
+    L --> B
 
-The objective is not to automate everything.
+    B --> M[WhatsApp / Email / SMS]
+    M --> B
+```
 
-It is to build **connected systems that make people and processes more effective.**
+### What this architecture represents
+
+**Lead Sources → CRM → AI Qualification → Lead Scoring → Routing → Automation/Human Sales → Pipeline → Revenue Outcome → Reporting**
+
+The CRM remains the central system of record, while AI assists with interpretation and prioritization. Automation handles repetitive actions, and important conversations move to people.
 
 ---
 
